@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: weatherapp
+    env: static
+    staticPublishPath: dist
+    buildCommand: npm run build
+    startCommand: npm run start
